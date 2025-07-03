@@ -147,6 +147,13 @@ git clone https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt m
 
 You can download checkpoints manually through link on [Google Drive](https://drive.google.com/drive/folders/1nzy9Vk-yA_DwXm1Pm4dyE2o0r7V6_5mn?usp=share_link).
 
+Or use gdown:
+```
+pip install gdown
+gdown --folder https://drive.google.com/drive/folders/1r3ETpMBC4HAFNHSgvVVFHrHPRZ2C47jO
+gdown --folder https://drive.google.com/drive/folders/117FTRwEGDfCh5xbb9Muf14EULI7WsMRj
+```
+
 Put checkpoints as follows:
 
 ```
